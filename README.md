@@ -1,0 +1,2 @@
+# JoinFieldMatcher
+A simple tool for ArcGIS users to help in joining table data to a shapefile/feature class with similar, but unmatched data to join on. This tool requires the [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy) python package.  The user specifies the fields to be joined on and a new field is created in the table called "JoinName". The JoinName field is populated with the best fit found in the Feature Class data.
